@@ -13,6 +13,13 @@
 		8646665A2B5803720079C474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864666582B5803720079C474 /* Main.storyboard */; };
 		8646665C2B5803750079C474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8646665B2B5803750079C474 /* Assets.xcassets */; };
 		8646665F2B5803750079C474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8646665D2B5803750079C474 /* LaunchScreen.storyboard */; };
+		8646666E2B5806840079C474 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 864666672B5806830079C474 /* A.wav */; };
+		8646666F2B5806840079C474 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 864666682B5806830079C474 /* C.wav */; };
+		864666702B5806840079C474 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 864666692B5806830079C474 /* B.wav */; };
+		864666712B5806840079C474 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8646666A2B5806830079C474 /* F.wav */; };
+		864666722B5806840079C474 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8646666B2B5806830079C474 /* G.wav */; };
+		864666732B5806840079C474 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8646666C2B5806830079C474 /* E.wav */; };
+		864666742B5806840079C474 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8646666D2B5806830079C474 /* D.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		8646665B2B5803750079C474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8646665E2B5803750079C474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		864666602B5803750079C474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864666672B5806830079C474 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		864666682B5806830079C474 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		864666692B5806830079C474 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		8646666A2B5806830079C474 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		8646666B2B5806830079C474 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		8646666C2B5806830079C474 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		8646666D2B5806830079C474 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +77,23 @@
 				8646665B2B5803750079C474 /* Assets.xcassets */,
 				8646665D2B5803750079C474 /* LaunchScreen.storyboard */,
 				864666602B5803750079C474 /* Info.plist */,
+				864666662B5806830079C474 /* Sounds */,
 			);
 			path = "Xylophone App";
+			sourceTree = "<group>";
+		};
+		864666662B5806830079C474 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				864666672B5806830079C474 /* A.wav */,
+				864666682B5806830079C474 /* C.wav */,
+				864666692B5806830079C474 /* B.wav */,
+				8646666A2B5806830079C474 /* F.wav */,
+				8646666B2B5806830079C474 /* G.wav */,
+				8646666C2B5806830079C474 /* E.wav */,
+				8646666D2B5806830079C474 /* D.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +154,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864666722B5806840079C474 /* G.wav in Resources */,
 				8646665F2B5803750079C474 /* LaunchScreen.storyboard in Resources */,
+				864666712B5806840079C474 /* F.wav in Resources */,
 				8646665C2B5803750079C474 /* Assets.xcassets in Resources */,
+				8646666E2B5806840079C474 /* A.wav in Resources */,
+				864666702B5806840079C474 /* B.wav in Resources */,
+				864666732B5806840079C474 /* E.wav in Resources */,
+				864666742B5806840079C474 /* D.wav in Resources */,
 				8646665A2B5803720079C474 /* Main.storyboard in Resources */,
+				8646666F2B5806840079C474 /* C.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +344,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "yeze.apps.Xylophone-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,6 +368,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +376,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "yeze.apps.Xylophone-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
