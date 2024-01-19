@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="B5q-ho-8FD">
             <objects>
-                <viewController id="3VD-on-rJN" customClass="ViewController" customModule="Xylophone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3VD-on-rJN" customClass="ViewController" customModule="Xylophone_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YPi-mS-Thm">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
